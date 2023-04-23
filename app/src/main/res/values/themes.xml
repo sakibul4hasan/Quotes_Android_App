@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Quotes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/themebar</item>
+    </style>
+
+    //============================
+
+    <style name="Base.Theme.Quotes2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/themeber2</item>
+    </style>
+
+    <style name="Theme.Quotes" parent="Base.Theme.Quotes" />
+
+
+
+
+
+
+
+
+
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">#424242</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+
+
+
+    <style name="CustomShapeAppearance">
+        <!-- Or if wants different radii depending on the corner. -->
+        <item name="neumorph_cornerSizeTopLeft">16dp</item>
+        <item name="neumorph_cornerSizeTopRight">16dp</item>
+        <item name="neumorph_cornerSizeBottomLeft">16dp</item>
+        <item name="neumorph_cornerSizeBottomRight">16dp</item>
+    </style>
+
+
+
+
+    <style name="InternetDialog">
+        <item name="android:windowIsFloating">false</item>
+        ...
+    </style>
+
+
+
+
+
+
+
+</resources>

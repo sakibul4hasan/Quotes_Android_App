@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2"
+    android:gravity="center"
+    android:background="#F4F4F4"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="80dp"
+        >
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/quote"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Running low on battery? Put your phone on airplane mode and It'll charge mush faster"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lyons_serif"
+        android:textStyle="bold"
+        android:letterSpacing=".05"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        >
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/share"
+            android:layout_marginRight="15dp"
+            android:clickable="true"
+            />
+        <ImageView
+            android:id="@+id/copy"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/copy"
+            android:layout_marginLeft="15dp"
+            android:clickable="true"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

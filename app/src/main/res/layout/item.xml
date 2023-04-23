@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    >
+
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:theme="@style/CustomShapeAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:neumorph_backgroundColor="#7DAB9F"
+        >
+
+        <LinearLayout
+            android:id="@+id/itemlly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            >
+
+            <TextView
+                android:id="@+id/quote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Life is not about getting and having love or reaction."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textSize="17sp"
+                android:fontFamily="@font/playfair"
+                />
+            <TextView
+                android:id="@+id/righter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kevin Kruse"
+                android:textSize="14sp"
+                android:gravity="end"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/lyons_serif_italic"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/numComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="18"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    />
+                <ImageView
+                    android:id="@+id/commentImg"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/comment"
+                    android:layout_marginRight="20dp"
+                    />
+
+                <TextView
+                    android:id="@+id/numLove"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="75"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    />
+                <ImageView
+                    android:id="@+id/loveImg"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/love_out"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+
+</LinearLayout>
